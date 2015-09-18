@@ -4,7 +4,7 @@
       ___________________________________________________________________
     /    _____________________________________________________________    \
     |   |                                                             |   |
-    |   |  ~ whrobbins$ echo "If you're reading this, hello!"_        |   |
+    |   |  ~ whrobbins$ echo "If you're reading this, hello!"         |   |
     |   |  "If you're reading this, hello!"                           |   |
     |   |  ~ whrobbins$ bash /scripts/website/render-source-code.sh   |   |
     |   |  Running... In the mean time, enjoy this photograph.        |   |                                                            |   |
@@ -44,8 +44,22 @@
 
     <title>Will Robbins</title>
 
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    
+    <link rel="stylesheet" href="pure-master/src/base/css/base.css">
+    <link rel="stylesheet" href="pure-master/src/buttons/css/buttons.css">
+    <link rel="stylesheet" href="pure-master/src/buttons/css/buttons-core.css">
+    <link rel="stylesheet" href="pure-master/src/forms/css/forms.css">
+    <link rel="stylesheet" href="pure-master/src/forms/css/forms-r.css">
+    <link rel="stylesheet" href="pure-master/src/grids/css/grids-core.css">
+    <link rel="stylesheet" href="pure-master/src/menus/css/menus-core.css">
+    <link rel="stylesheet" href="pure-master/src/menus/css/menus-dropdown.css">
+    <link rel="stylesheet" href="pure-master/src/menus/css/menus-horizontal.css">
+    <link rel="stylesheet" href="pure-master/src/menus/css/menus-scrollable.css">
+    <link rel="stylesheet" href="pure-master/src/menus/css/menus-skin.css">
+    <link rel="stylesheet" href="pure-master/src/tables/css/tables.css">
+    
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:400,300,600">
   
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
@@ -53,6 +67,21 @@
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/layouts/side-menu.css">
     <!--<![endif]-->
+    <style>
+        /*
+        When setting the primary font stack, apply it to the Pure grid units along
+        with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
+        specific font stacks to ensure the greatest OS/browser compatibility.
+        */
+        html, button, input, select, textarea,
+        .pure-g [class *= "pure-u"] {
+            /* Set your content font stack here: */
+            font-family: Raleway;
+            src: url("raleway-font/Raleway-Medium.tff");
+            font-family: Raleway, Times, "Times New Roman", serif;
+        }
+    </style>
+    
 </head>
 
 <body>
@@ -65,7 +94,7 @@
         <div class="content">
             <h1 class="content-subhead" align="center">About Me</h1>
                 <p>
-                    I'm Will, an undergrad in CS@Illinois from the Chicago suburbs.  I spend my time pursuing entrepreneurial ideas, hacking on websites & android apps, and making friends in the process.  My interests lean towards the backend and scientific aspects of CS, but I'm interested in a <em>lot</em> of things.  I also enjoy listening to music in hammocks, eating breakfast food, and working towards my goal of visiting all 50 states.
+                    I'm Will, an undergrad in CS@Illinois.  I spend my time pursuing entrepreneurial ideas, hacking on websites & android apps, and making friends in the process.  My interests lean towards the backend and scientific aspects of CS, but I'm interested in a <em>lot</em> of things.  I also enjoy listening to music in hammocks, eating breakfast food, and working towards my goal of visiting all 50 states.
                 <h3>Work Experience</h3>
                     <ul>
                         <li> Summer 2016 | Your company can be listed right here! (take a look at my resume and give me a shout) </li>
@@ -74,12 +103,12 @@
                     </ul>
                 <h3>Favorites</h3>
                     <ul>
-                        <li> Movies & TV | 12 Angry Men | LoTR | Crouching Tiger, Hidden Dragon | Memento | Futurama </li>
-                        <li> Books |  </li>
+                        <li> Movies & TV | Crouching Tiger, Hidden Dragon | Memento | The Bourne Identity | Futurama | Silicon Valley </li>
+                        <li> Books |  <a href="http://www.amzn.com/0300180276">The Most Good You Can Do</a> | <a href="http://amzn.com/0316129089">Leviathan Wakes</a> | <a href="http://amzn.com/031632406X">Lone Survivor</a></li>
                         <li> Quotes | "We act as though comfort and luxury were the chief requirements of life. All that we need to make us happy is something to be enthusiastic about."<!--TODO: Add a button to refresh to a new quote --> </li>
                         <li> Mixtapes | <a href="https://soundcloud.com/odesza/nosleep-mix-09">Odesza's NO.SLEEP - MIX.09 </a></li>
-                        <li> Services | <a href="https://open.spotify.com/user/wrobbins38">Spotify</a></li>
-                        <li> Activities | Working out | Discovering new music | Reading about business and tech
+                        <li> Websites | <a href="https://open.spotify.com/user/wrobbins38">Spotify</a></li>
+                        <li> Activities | Working out | Discovering new music | Reading about business/science/tech/politics
                     </ul>
                 <h3>Projects</h3>
                     <ul>
@@ -89,7 +118,7 @@
                                 <li>Taught myself Android and wrote Brick Breaker Free in high school.  It's been downloaded over 100k times.</li>
                             </ul>
                         </li>
-                        <li> Traveling Salesperson |  </li>
+                        <li> <a href="https://github.com/whrobbins/Traveling-Salesperson">Traveling Salesperson</a> |  Implemented various algorithms to attack the famous traveling salesperson problem, complete with a simple GUI.</li>
                         <li> Site will be updated with more soon. </li>
                     </ul>
 
@@ -120,4 +149,4 @@
 <script src="js/ui.js"></script>
 </body>
 </html>
-<!-- goodbye -->
+<!-- goodbye. have a nice day -->
