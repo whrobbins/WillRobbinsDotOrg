@@ -17,7 +17,7 @@ p {
 a {
     /*text-decoration: dashed underline;*/
     text-decoration: blink;
-    color: #97b8dd;
+    color: #dd5452;
 }
 
 a:hover {
@@ -42,7 +42,7 @@ a:hover {
 }
 
 .colorful {
-    color: #97b8dd;
+    color: #dd5452;
     font-weight: 300;
 }
 
