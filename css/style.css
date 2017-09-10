@@ -5,8 +5,9 @@ html, body {
     /*margin: 120;*/
     padding: 0;
     /*font-family: 'Montserrat', sans-serif;*/
-    font-family: Interface, sans-serif;
+    /*font-family: Interface, sans-serif;*/
     /* font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', sans-serif; */
+    font-family: "Hind", sans-serif;
     font-weight: 300;
     font-size: 95%;
     max-width: 1000px;
